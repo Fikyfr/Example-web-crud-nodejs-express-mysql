@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="/assets/css/style.css " rel="stylesheet" type="text/css" />
+ 
+
+  <style>
+    
+ .box{
+   margin: auto;
+   max-width: 1300px;
+   height: 30cm;
+   background-color: rgba(0, 0, 0, 0.192);
+ }
+    .nav {
+    overflow: hidden;
+    background-color: rgba(0,137,123,1.00);
+    max-width: 1300px;
+    margin: auto;
+    }
+
+/* .........Style the navigation bar links */
+.nav a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+/* Change color on hover */
+.nav a:hover {
+background-color: rgba(0, 0, 0, 0.192);
+color: black;
+}
+.container {
+   max-width: 500px;
+   margin: auto;
+   text-align: center;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-control {
+  display: block;
+  width: 800px;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+  </style>
+</head>
+<body>
+  <div class="top-title">
+    <h4>TRAVELINK<span>IND</span> </h4>
+    </div>
+    <div class="nav">
+      <a href="/">Home</a>
+      <a href="/service">Service</a>
+      <a href="/Blog">Blog</a>
+      <a href="/contact">Contact</a>
+      <a href="/AboutUs">About Us</a>
+      <a href="/login">Login</a> 
+    </div>
+
+    <div class="box">
+      <div class="container">
+        <h2>For Question</h2>
+        <h2>COMMENT</h2>
+        <form action="/save" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" style=" width: 15cm;" id="name" placeholder="Enter Name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" style=" width: 15cm;" id="email" placeholder="Enter email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <input type="text" class="form-control"  style="height: 200px; width: 15cm;"id="comment" placeholder="Comment Here" name="comment" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    
+
+  
+</body>
+</html>
