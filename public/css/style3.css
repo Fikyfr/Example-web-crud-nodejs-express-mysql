@@ -1,0 +1,45 @@
+.Halaman{
+
+	text-align:center;
+	color:rgb(33, 58, 66);
+	height:50px;
+	font-size: 30px;
+	font-family: Lucida Console, Courier, monospace;
+}
+.jumbotron{
+    background-image:url("../image/6.jpg");
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    margin-top: -120px;
+   font-family: Lucida Console, Courier, monospace;
+
+}
+.display-4 {
+	color : white;
+	margin-top:200px;
+	font-size:55px;
+}
+.jumbotron p {
+	color: white;
+
+}
+.jumbotron .btn{
+	border: none;
+	 border-radius: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 50px;
+}
+
+.carousel-item{
+	height:650px;
+}
+
+.About p{
+	text-align:justify;
+	font-size:20px;
+}
+.yo p{
+	text-align:justify; 
+}

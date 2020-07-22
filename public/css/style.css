@@ -1,0 +1,302 @@
+body {
+  background-image: url("../image/bg.jpg");
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;  
+}
+.top-title{
+
+  background: rgba(0, 0, 0, 0); 
+  width: 1100px;
+  height: 4cm;
+  position: relative;
+  margin: auto;
+
+}
+h4{
+  font-size: 60px;
+  font-family: "Comic Sans MS", "cursive", sans-serif;
+  position: absolute;
+  left: 10px;
+  bottom: px;
+  top: -32px;
+  width: 454px;
+  height: 76px;
+
+
+}
+h4 span{color:#e5703d;
+font-size:45px; 
+font-family: "Comic Sans MS", "cursive", sans-serif;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;
+height: 12cm;
+
+}
+/* Slideshow */
+.slideshow-container {
+ max-width: 1500px;
+position: relative;margin: auto;
+height: 12cm;
+
+}
+.textimg {
+color:aliceblue;
+font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+font-size: 30px;
+text-align: center;
+position: absolute;
+top: 2cm;
+left:3cm;
+}
+.textimg h2{
+font-size: 50px;
+
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+/*?????????*/
+.active {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 0.5s;
+animation-name: fade;
+animation-duration: 0.5s;
+}
+
+
+
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
+
+
+/* Style the top navigation bar */
+.navbar {
+overflow: hidden;
+background-color: rgba(0,137,123,1.00);
+max-width: 1500px;
+margin: auto;
+}
+
+/* .........Style the navigation bar links */
+.navbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+/* Change color on hover */
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.wrapper{
+  position: relative;
+max-width: 1500px;
+height:18cm;
+margin: auto; 
+  background: rgba(172, 171, 189, 0.2); /*background with 0 opacity */
+  font-size: 20px;
+text-align: left;
+}
+.wrapper p{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  color: #bbb;
+  background-color: rgba(0, 0, 0, 0.219);
+}
+.wrapper h5{
+  font-size: 35px;
+  font-family: inherit;
+}
+.yo	{
+  position: absolute;;
+  font-size: 20px;
+width: 16cm;
+height: 15cm;
+left: 0px;
+top: 0px;
+} 
+.img-yo{
+  position: absolute;
+  bottom: 0px;
+  width:1500px;
+  height: 15cm;
+  left: 0px;
+  top: 0px;
+}
+.yo p{
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  color:rgb(247, 247, 247);
+  
+  background: rgba(0, 0, 0, 0.555);
+  }
+  @media only screen and (max-width: 31cm){
+    .img-yo { width: 15cm;
+              height: 15cm;
+            }
+    .yo { width: 15cm;
+          height:15cm;
+        }
+}
+.coverVid{
+max-width: 1500px;
+height:20cm;
+margin: auto; 
+overflow:hidden; background:rgba(158, 158, 158, 0.233);
+position: relative;
+}
+
+.content {
+ position: absolute;
+width: 98%;
+height:20cm;
+bottom: 0px;
+  left: 0px;
+}
+#myVideo {
+  width:30cm;
+  height: 20cm;
+  position: absolute;
+  top: 0cm;
+  right: 0px;
+}
+#myBtn {
+position: absolute;
+bottom: 10px;
+right: 20px;
+background-color: black;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#myBtn:hover {
+background: #ddd;	
+}
+.content h1{position: absolute;
+left:31%;
+top: 50%;
+font-family: "Comic Sans MS", "cursive", sans-serif;
+color: white;
+}
+
+.content p{position: absolute;
+left:31%;
+top: 70%;
+font-family: "Comic Sans MS", "cursive", sans-serif;
+color: white;
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width : 1209px ){
+.row {   
+  flex-direction: column;
+}
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width : 472px ){
+.navbar a {
+  float: none;
+  width: 100%;
+}
+}
+
+.kotak{
+max-width: 1500px;
+margin: auto; overflow:hidden; background: rgba(0, 0, 0, 0.2);}
+.kotak h2,p{
+        text-align: left;
+}
+.column {
+float: left;
+width: 355px;
+height: 2cm;
+padding: 10px;
+text-align: center;
+font-size: 30px;
+cursor: pointer;
+color: white;
+}
+
+.containerTab {
+padding: 20px;
+color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+float: right;
+color: white;
+font-size: 35px;
+cursor: pointer;
+}
+
+.kotak2{
+  max-width: 1500px;
+  margin: auto; 
+  overflow:hidden; background: rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+.column2{
+-ms-flex: 50%; /* IE 10 */
+flex: 50%;
+padding: 4px;
+}
+
+.column2 img{
+  margin: auto;
+  max-width:35% ;
+  border-image: 1cm;
+  border-radius: 5px;
+ 
+  }
+  
+/* Footer */
+#f{
+  width: 40px;
+  height: 40px;
+}

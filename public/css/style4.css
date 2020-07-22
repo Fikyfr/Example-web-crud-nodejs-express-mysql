@@ -1,0 +1,30 @@
+.media{
+	margin-top :100px;
+	font:center;
+	}
+.mt-0{
+	color:blue;
+	font:right;
+	font-size:13px;
+}
+.mt-1{
+	color: blue;
+	text-align:right;
+
+}
+.media p{
+	color:black;
+	text-align:justify;
+	font-size:13px;
+}
+.mt-2{
+	font-size:20px;
+	color:blue;
+}
+.mt-3{
+	font-size:20px;
+	color:blue;
+}
+.media3{
+	margin-top:40px;
+}
