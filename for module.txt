@@ -1,0 +1,5 @@
+Express - Install with command: npm install express.
+Express Sessions - Install with command: npm install express-session.
+MySQL for Node.js - Install with command: npm install mysql.
+ejs- :npm install ejs
+body-parser - :npm install body-parser
